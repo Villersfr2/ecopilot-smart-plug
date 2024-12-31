@@ -1,14 +1,14 @@
 substitutions:
   # Default name
-  name: "athom-smart-plug-v3"
+  name: "ecopilot-smart-plug"
   # Default friendly name   
-  friendly_name: "Athom Plug V3"
+  friendly_name: "EcoPilot Smart Plug"
   # Allows ESP device to be automatically linked to an 'Area' in Home Assistant. Typically used for areas such as 'Lounge Room', 'Kitchen' etc  
   room: ""
   # Description as appears in ESPHome & top of webserver page
-  device_description: "athom esp32-c3 smart plug"
+  device_description: "EcoPilot smart plug"
   # Project Name
-  project_name: "Athom Technology.Smart Plug V3"
+  project_name: "EcoPilot.SmartPlug"
   # Projection version denotes the release version of the yaml file, allowing checking of deployed vs latest version
   project_version: "v1.0.6"
    # Restore the relay (GPO switch) upon reboot to state:
@@ -122,7 +122,7 @@ esp32_improv:
   authorizer: none
 
 dashboard_import:
-  package_import_url: github://athom-tech/esp32-configs/athom-smart-plug.yaml
+  package_import_url: github://Villersfr2/ecopilot-smart-plug/athom-smart-plug.yaml
 
 uart:
   rx_pin: GPIO20
