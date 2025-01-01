@@ -123,8 +123,8 @@ captive_portal:
 esp32_improv:
   authorizer: none
 
-dashboard_import:
-  package_import_url: github://Villersfr2/ecopilot-smart-plug/athom-smart-plug.yaml
+#dashboard_import:
+#  package_import_url: github://Villersfr2/ecopilot-smart-plug/athom-smart-plug.yaml
 
 uart:
   rx_pin: GPIO20
